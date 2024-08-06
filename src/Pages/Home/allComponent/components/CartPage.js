@@ -15,11 +15,7 @@ import {
   AddCircle as AddCircleIcon,
   Delete as DeleteIcon,
 } from "@mui/icons-material";
-import {
-  removeItem,
-  //   increaseQuantity,
-  //   decreaseQuantity,
-} from "../../../../Redux/productsSlice";
+import { removeItem } from "../../../../Redux/productsSlice";
 import QuantityPicker from "./QuantityPicker";
 
 const CartPage = () => {
