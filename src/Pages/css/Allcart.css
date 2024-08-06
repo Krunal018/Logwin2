@@ -1,0 +1,17 @@
+.card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-media {
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-actions {
+  margin-top: auto;
+}
