@@ -19,7 +19,6 @@ const AppContent = () => {
   const location = useLocation();
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
   const hideNavbar = location.pathname === "/login";
-  console.log("hideNavbar", hideNavbar);
 
   return (
     <ThemeWrapper>
